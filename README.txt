@@ -1,7 +1,3 @@
-Here's the corrected content with appropriate words and formatting:
-
----
-
 This project "Document Management" was developed using the following technology stack:
 
 1. **Front End**

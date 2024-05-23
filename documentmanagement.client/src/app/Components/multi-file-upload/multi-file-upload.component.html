@@ -1,0 +1,15 @@
+<div class="container mt-5">
+  <div class="multi-file-upload">
+    <input type="file" class="form-control-file" (change)="onFileSelected($event)" multiple>
+    <button class="btn btn-primary mt-2" (click)="uploadFiles()">Upload Files</button>
+
+    <div *ngIf="uploadStatus === 1" [ngClass]="['text-success', 'font-weight-bold']">
+      Upload success!
+    </div>
+    <div *ngIf="uploadStatus === 2" [ngClass]="['text-danger', 'font-weight-bold']">
+      Upload Failed!
+    </div>
+
+
+  </div>
+</div>

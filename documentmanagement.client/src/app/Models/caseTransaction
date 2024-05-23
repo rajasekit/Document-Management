@@ -1,0 +1,4 @@
+export interface caseTransaction {
+    caseTransactionID: number;
+    caseNumber: string;
+    }
